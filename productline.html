@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,intial-scale=1.0" >
+        <title>FINAL YEAR PROJECT | E-Commerce website </title>
+        <link rel="stylesheet" href="style.css">
+        <link href="<link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap" rel="stylesheet"">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+    <div class="header">    
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="logo.png" width="125px">
+            </div>
+            <nav>
+                <ul id="menuitems">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="product.html">PRODUCT</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">CONTACT</a></li>
+                    <li><a href="">ACCOUNT</a></li>
+                </ul>
+            </nav>
+            <img src="cart.png" width="30px" height="30px">
+            <img src="menu.png" alt="menu pic" class="menuicon" onclick="menutoggle()">
+         </div>
+         <div class="row">
+            <div class="col-2">
+               <h1>
+                We provide you a new Shopping Experience !
+               </h1>
+               <p><i>Success isn't always about greatness. It's about the consistency!!</i></p>
+               <a href="" class="btn">EXPLORE NOW &#8594;</a>
+            </div>
+            <div class="col-2">
+            <img src="first-image.jpg" alt="first image">
+            </div>
+         </div>
+    </div>
+        </div>
+    <!------ featured cateorgy------>
+    <div class="cateogries">
+        <div class="small-container">
+            <center><h1>OUR MAJOR PRODUCTS LINE</h1></center>
+        <div class="row">
+            <div class="col-3">
+                <img src="e1-main.jpg" alt="">
+                <a href="product.html">CLICK TO VISIT MORE</a>
+            </div>
+            <div class="col-3">
+                <img src="fash-main.jpg" alt="">
+                <a href="clothing.html">CLICK TO VISIT MORE</a>
+            </div>
+            <div class="col-3">
+                <img src="book-main.jpg" alt="">
+            </div>
+        </div>
+        </div>
+    </div>
+
+     <!--footer-->
+     <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footercol-1">
+                    <h3>DOWNLOAD OUR APP</h3>
+                    <p>Download our app for android and ios</p>
+                    <div class="applogo">
+                        <img src="google-store.png" alt="">
+                        <img src="appstore.png" alt="">
+                    </div>
+                </div>
+                <div class="footercol-2">
+                    <img src="company-logo.PNG" alt="">
+                    <p>We assure you to get a better customer service and experience</p>
+                </div>
+                <div class="footercol-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footercol-4">
+                    <h3>Follow us</h3>
+                    <ul>
+                        <li>Instagram</li>
+                        <li>Twitter</li>
+                        <li>Linkedin</li>
+                        <li>Facebook</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2024 - By Manan</p>
+        </div>
+    </div>
+
+
+    <script>
+        var menuitems=document.getElementById("menuitems");
+        menuitems.style.maxHeight="0px";
+        function menutoggle()
+        {
+            if(menuitems.style.maxHeight=="0px")
+            {
+                menuitems.style.maxHeight="200px";
+            }
+            else
+            {
+                menuitems.style.maxHeight="0px";
+            }
+        }
+    </script>
+    </body>
+</html>

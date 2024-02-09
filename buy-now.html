@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy Now</title>
+    <style>
+        /* Add your CSS styles here */
+    </style>
+</head>
+<body>
+    <div id="buyForm">
+        <form>
+            <label for="productName">Product Name:</label><br>
+            <input type="text" id="productNameField" name="productNameField"  ><br>
+            <label for="productPrice">Product Price:</label><br>
+            <input type="text" id="productPriceField" name="productPriceField"  ><br><br>
+            <button type="button" onclick="window.location.href='index.html'">Back to Product Listing</button><br>
+            <button type="button" onclick="goToIndexPage()">Go to Index Page</button>
+        </form>
+    </div>
+
+    <script>
+        function goToIndexPage() {
+            window.location.href = 'index.html';
+        }
+    </script>
+</body>
+</html>
